@@ -1,0 +1,51 @@
+development:
+  sessions:
+    default:
+      database: cs_comments_service_development
+      hosts:
+        - localhost:27017
+test:
+  sessions:
+    default:
+      database: cs_comments_service_test
+      hosts:
+        - localhost:27017
+
+common: &default_session
+  uri: <%= ENV['MONGOHQ_URL'] %>
+  options:
+    skip_version_check: true
+    safe: true
+    consistency: strong
+    max_retries: <%= ENV['MONGOID_MAX_RETRIES'] || 1 %>
+    retry_interval: <%= ENV['MONGOID_RETRY_INTERVAL'] || 0 %>
+    timeout: <%= ENV['MONGOID_TIMEOUT'] || 0.5 %>
+
+production:
+  sessions:
+    default:
+      <<: *default_session
+
+edgeprod:
+  sessions:
+    default:
+      <<: *default_session
+
+edgestage:
+  sessions:
+    default:
+      <<: *default_session
+
+staging:
+  sessions:
+    default:
+      <<: *default_session
+
+loadtest:
+  sessions:
+    default:
+      <<: *default_session
+
+defaults: &defaults
+  use_utc: false
+  use_activesupport_time_zone: true

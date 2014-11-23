@@ -1,0 +1,39 @@
+# Logfile created on 2014-11-14 04:19:50 +0000 by logger.rb/31641
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Starting the New Relic agent in "development" environment.
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Reading configuration from config/newrelic.yml (/edx/app/forum/cs_comments_service)
+[11/14/14 04:19:50 +0000 precise64 (3590)] WARN : Agent is configured to send raw SQL to the service
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Environment: development
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : No known dispatcher detected.
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Application: default_env-default_deployment-forum
+[11/14/14 04:19:50 +0000 precise64 (3590)] WARN : Agent configured not to send data in this environment.
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Installing Net instrumentation
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Installing Sinatra instrumentation
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Installing Dalli Memcache instrumentation
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Installing deferred Rack instrumentation
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Installing Rack::Builder middleware instrumentation
+[11/14/14 04:19:50 +0000 precise64 (3590)] INFO : Finished instrumentation
+[11/14/14 04:19:51 +0000 precise64 (3590)] ERROR : Did not trace ThreadUtils#get_read_states because that method does not exist
+[11/14/14 04:19:51 +0000 precise64 (3590)] ERROR : Did not trace ThreadUtils#get_endorsed because that method does not exist
+[11/14/14 04:22:07 +0000 precise64 (3590)] INFO : Doing deferred dependency-detection before Rack startup
+[11/14/14 04:22:07 +0000 precise64 (3590)] INFO : Installing Moped instrumentation
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Starting the New Relic agent in "development" environment.
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Reading configuration from config/newrelic.yml (/edx/app/forum/cs_comments_service)
+[11/21/14 13:46:14 +0000 precise64 (3766)] WARN : Agent is configured to send raw SQL to the service
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Environment: development
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : No known dispatcher detected.
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Application: default_env-default_deployment-forum
+[11/21/14 13:46:14 +0000 precise64 (3766)] WARN : Agent configured not to send data in this environment.
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Installing Net instrumentation
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Installing Sinatra instrumentation
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Installing Dalli Memcache instrumentation
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Installing deferred Rack instrumentation
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Installing Rack::Builder middleware instrumentation
+[11/21/14 13:46:14 +0000 precise64 (3766)] INFO : Finished instrumentation
+[11/21/14 13:46:14 +0000 precise64 (3766)] ERROR : Did not trace ThreadUtils#get_read_states because that method does not exist
+[11/21/14 13:46:14 +0000 precise64 (3766)] ERROR : Did not trace ThreadUtils#get_endorsed because that method does not exist
+[11/21/14 13:46:28 +0000 precise64 (3766)] INFO : Doing deferred dependency-detection before Rack startup
+[11/21/14 13:46:28 +0000 precise64 (3766)] INFO : Installing Moped instrumentation
